@@ -12,15 +12,15 @@
           name="usdcPool"
 >
     <ts:label>
-        <ts:string xml:lang="en">Uniswap USDC V1</ts:string>
+        <ts:string xml:lang="en">cynoswop USDC V1</ts:string>
     </ts:label>
-    <ts:contract interface="erc20" name="uniswap">
-        <ts:address network="1">0x97dec872013f6b5fb443861090ad931542878126</ts:address>     <!--mainnet-->
+    <ts:contract interface="erc20" name="cynoswop">
+        <ts:address network="1">0x8E04b0cCB559843c58D1A754fF69422F90860071</ts:address>     <!--mainnet-->
     </ts:contract>
 
     <ts:origins>
         <!-- Define the contract which holds the token that the user will use -->
-        <ts:ethereum contract="uniswap"/> <!-- as above ts:contract name -->
+        <ts:ethereum contract="CNCUK"/> <!-- as above ts:contract name -->
     </ts:origins>
 
     <ts:cards>
