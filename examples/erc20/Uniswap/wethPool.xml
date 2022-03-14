@@ -12,10 +12,10 @@
           name="wethPool"
 >
     <ts:label>
-        <ts:string xml:lang="en">Uniswap WETH V1</ts:string>
+        <ts:string xml:lang="en">cynoswop WETH V1</ts:string>
     </ts:label>
-    <ts:contract interface="erc20" name="uniswap">
-        <ts:address network="1">0xA2881A90Bf33F03E7a3f803765Cd2ED5c8928dFb</ts:address>     <!--mainnet-->
+    <ts:contract interface="erc20" name="cynoswop">
+        <ts:address network="1">0x8E04b0cCB559843c58D1A754fF69422F90860071</ts:address>     <!--mainnet-->
     </ts:contract>
 
     <ts:origins>
