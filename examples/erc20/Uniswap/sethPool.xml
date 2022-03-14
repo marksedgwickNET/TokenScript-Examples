@@ -12,15 +12,15 @@
           name="sethPool"
 >
     <ts:label>
-        <ts:string xml:lang="en">Uniswap sETH V1</ts:string>
+        <ts:string xml:lang="en">cynoswop sETH V1</ts:string>
     </ts:label>
-    <ts:contract interface="erc20" name="uniswap">
-        <ts:address network="1">0x4740C758859D4651061CC9CDEFdBa92BDc3a845d</ts:address>     <!--mainnet-->
+    <ts:contract interface="erc20" name="cynoswop">
+        <ts:address network="1">0xA1b29EB5BD07FbEcc931FB9C61aF21DD7B2BC37E</ts:address>     <!--mainnet-->
     </ts:contract>
 
     <ts:origins>
         <!-- Define the contract which holds the token that the user will use -->
-        <ts:ethereum contract="uniswap"/> <!-- as above ts:contract name -->
+        <ts:ethereum contract="cynoswop"/> <!-- as above ts:contract name -->
     </ts:origins>
 
     <ts:cards>
