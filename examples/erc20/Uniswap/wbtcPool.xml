@@ -12,15 +12,15 @@
           name="wbtcPool"
 >
     <ts:label>
-        <ts:string xml:lang="en">Uniswap WBTC V1</ts:string>
+        <ts:string xml:lang="en">cynoswop WBTC V1</ts:string>
     </ts:label>
-    <ts:contract interface="erc20" name="uniswap">
-        <ts:address network="1">0x4d2f5cfba55ae412221182d8475bc85799a5644b</ts:address>     <!--mainnet-->
+    <ts:contract interface="erc20" name="cynoswop">
+        <ts:address network="1">0x8E04b0cCB559843c58D1A754fF69422F90860071</ts:address>     <!--mainnet-->
     </ts:contract>
 
     <ts:origins>
         <!-- Define the contract which holds the token that the user will use -->
-        <ts:ethereum contract="uniswap"/> <!-- as above ts:contract name -->
+        <ts:ethereum contract="CNCUK"/> <!-- as above ts:contract name -->
     </ts:origins>
 
     <ts:cards>
