@@ -12,15 +12,15 @@
           name="saiPool"
 >
     <ts:label>
-        <ts:string xml:lang="en">Uniswap SAI V1</ts:string>
+        <ts:string xml:lang="en">CYNOSWAP SAI V1</ts:string>
     </ts:label>
-    <ts:contract interface="erc20" name="uniswap">
-        <ts:address network="1">0x09cabEC1eAd1c0Ba254B09efb3EE13841712bE14</ts:address>     <!--mainnet-->
+    <ts:contract interface="erc20" name="cynoswap">
+        <ts:address network="1">0xe49a71DA72B51517103c5f6aAC4D585C9A05De82</ts:address>     <!--mainnet-->
     </ts:contract>
 
     <ts:origins>
         <!-- Define the contract which holds the token that the user will use -->
-        <ts:ethereum contract="uniswap"/> <!-- as above ts:contract name -->
+        <ts:ethereum contract="cynoswap"/> <!-- as above ts:contract name -->
     </ts:origins>
 
     <ts:cards>
